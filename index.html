@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ramen-rating-app</title>
+    <style>
+    
+        body {
+            background-color: blanchedalmond;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            height: 300px;
+            width: auto;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #ramen-detail {
+            background-color: indianred;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        #ramen-form {
+            background-color: powderblue;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            width: 350px;
+        }
+
+        #ramen-form ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #ramen-form li {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid bisque;
+        }
+
+        button {
+            background-color: palevioletred;
+            color: blanchedalmond;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(255, 170, 0)
+        }
+    </style>
+</head>
+<body>
+    <div id="ramen-menu" class="image-container">
+
+    </div>
+
+    <div id="ramen-detail">
+        <h2 id="ramen-name">Ramen Name</h2>
+        <p id="ramen-restaurant">Restaurant Name</p>
+        <p id="ramen-rating">Rating: 5</p>
+        <p id="ramen-comment">This ramen was yummy!</p>
+    </div>
+
+    <form id="ramen-form">
+        <table>
+            <tr>
+                <td><label for="image-url">Ramen img url:</label></td>
+                <td><input type="text" id="image-url" required></td>
+            </tr>
+            <tr>
+                <td><label for="ramen-name-input">Ramen name:</label></td>
+                <td><input type="text" id="ramen-name-input" required></td>
+            </tr>
+            <tr>
+                <td><label for="ramen-restaurant-input">Restaurant:</label></td>
+                <td><input type="text" id="ramen-restaurant-input" required></td>
+            </tr>
+            <tr>
+                <td><label for="ramen-rating-input">Rating:</label></td>
+                <td><input type="number" id="ramen-rating-input" min="1" max="5"></td>
+            </tr>
+            <tr>
+                <td><label for="ramen-comment-input">Comment:</label></td>
+                <td><textarea id="ramen-comment-input"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Add Ramen</button></td>
+            </tr>
+        </table>
+    </form>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
