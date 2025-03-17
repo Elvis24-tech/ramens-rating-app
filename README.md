@@ -12,6 +12,8 @@ For the app to work you have to make sure you have a browser inorder to view it.
 
 Once you open the app you will be able to see the ramen images displayed on the page and with their details.
 
+Click on the various images to get their names,restaurants,ratings and comments.
+
 You can add new entries on the form in the table and click the "Add Ramen" button
 
 This project provides a simple yet interactive way to display and rate ramen dishes. The app is user-friendly and easy to use, with real-time updates for adding new ramen entries.
