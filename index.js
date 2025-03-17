@@ -14,7 +14,7 @@ const ramens = [
         comment: 'Tasty and fingerlicking!'
     },
     {
-        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOaA4mYRXsIbN5qC-_AZfzBU6MQradLESWw&s',
+        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuiRI_cgax6o_SxuIFLwNnPN4yiWFZP_BIzg&s',
         name: 'Tonkotsu Ramen',
         restaurant: 'Eat and Dip',
         rating: 3,
