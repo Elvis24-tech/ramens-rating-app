@@ -7,7 +7,7 @@
     <style>
     
         body {
-            background-color: blanchedalmond;
+            background-color: pink;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -71,14 +71,14 @@
         button {
             background-color: palevioletred;
             color: blanchedalmond;
-            padding: 11px 16px;
+            padding: 10px 15px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
 
         button:hover {
-            background-color: rgb(255, 170, 0)
+            background-color: maroon;
         }
     </style>
 </head>
@@ -90,14 +90,14 @@
     <div id="ramen-detail">
         <h2 id="ramen-name">Ramen Name</h2>
         <p id="ramen-restaurant">Restaurant Name</p>
-        <p id="ramen-rating">Rating: 5</p>
+        <p id="ramen-ranking">Ratings: 10</p>
         <p id="ramen-comment">This ramen was yummy!</p>
     </div>
 
     <form id="ramen-form">
         <table>
             <tr>
-                <td><label for="image-url">Ramen img url:</label></td>
+                <td><label for="image-url">Ramen url:</label></td>
                 <td><input type="text" id="image-url" required></td>
             </tr>
             <tr>
@@ -109,8 +109,8 @@
                 <td><input type="text" id="ramen-restaurant-input" required></td>
             </tr>
             <tr>
-                <td><label for="ramen-rating-input">Rating:</label></td>
-                <td><input type="number" id="ramen-rating-input" min="1" max="5"></td>
+                <td><label for="ramen-rating-input">Ratings:</label></td>
+                <td><input type="number" id="ramen-ranking-input" min="1" max="5"></td>
             </tr>
             <tr>
                 <td><label for="ramen-comment-input">Comment:</label></td>
